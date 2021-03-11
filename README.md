@@ -1,2 +1,2 @@
 TZ examples
-<a href="https://github.com/vladeismont/itstep_programming/tree/master/adukar/task3-1">task 3-1</a>
+<a href="https://github.com/vladeismont/adukarSpring/tree/main/task3-1">task 3-1</a>
