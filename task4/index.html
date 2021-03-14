@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!-- указываем обработчик формы, example.php or email smth like this-->
+<form name="pizza_order" action="handler.php" method="post" enctype="multipart/form-data">
+    <p>
+        <label>Выберите пиццу:
+            <select name="pizza" required>
+                <option value="pz1">Маргарита</option>
+                <option value="pz2">Гавайская</option>
+                <option value="pz3">Мексиканская</option>
+                <option value="pz4">Шеф-пицца</option>
+            </select>
+        </label>
+    </p>
+
+    <p>
+        Выберите основу:<br>
+        <label>
+            <input type="radio" name="base" value="base1" checked>
+            тонкий край
+        </label>
+        <label>
+            <input type="radio" name="base" value="base2">
+            толстый край
+        </label>
+    </p>
+
+    <p>
+        <label>
+            <input type="checkbox" name="slice">
+            Разрезать пиццу
+        </label>
+    </p>
+
+    <p>
+        <label>Номер телефона для связи
+            <!-- for phone type tel -->
+            <input type="tel" name="phone" autocomplete required>
+        </label>
+    </p>
+
+    <p>
+        <label>Адрес доставки
+            <input type="text" name="address" autocomplete required>
+        </label>
+    </p>
+
+    <p>
+        <label>Дополнительные пожелания<br>
+            <textarea cols="40" rows="5" name="additional_info"
+                      placeholder="Время доставки, код домофона и пр." style="resize: none"
+            ></textarea>
+        </label>
+    </p>
+
+    <p>
+        <input type="submit" value="Заказать">
+    </p>
+</form>
+<p>
+    <a href="comments.html">оставить отзыв</a>
+</p>
+</body>
+</html>

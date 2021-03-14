@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>comments</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="shortcut icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTblhfIy-0XCSC8-MAK2mWsHrkj7AYFbmWdYw&usqp=CAU" type="image/x-icon">
+    <script src="js1.js" type="javascript"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://rawgit.com/kartik-v/bootstrap-star-rating/v3.5.4/css/star-rating.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://rawgit.com/kartik-v/bootstrap-star-rating/v3.5.4/js/star-rating.js"></script>
+</head>
+<body>
+    <form name="pizza comments" action="param.html" method="get" enctype="multipart/form-data">
+        <p>
+            <label for="FName">Name:
+                <input id="FName" type="text" name="Name" placeholder="Name" value="" required>
+            </label>
+        </p>
+        <p>
+            <label for="email">Email:
+                <input id="email" type="email" name="email" placeholder="email" value="" required>
+            </label>
+        </p>
+        <input id="question1" class="rating rating-loading" value="" name="q1" required>
+        <p>
+            <label for="text1">Yours comments:<br>
+                <textarea id="text1" cols="40" rows="5" name="additional_info" name="text1"
+                          placeholder="Ваш отзыв" style="resize: none" required
+                ></textarea>
+            </label>
+        </p>
+    </form>
+</body>
+</html>
