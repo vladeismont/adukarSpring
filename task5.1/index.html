@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Соцсеть</title>
+</head>
+<body>
+    <header>
+        <img src="1%20logaster%20ru.png" alt="нет картинки"
+             style="display: block; margin-left: auto; margin-right: auto; width: 199px;height: 107px">
+    </header>
+    <h3>Вход</h3>
+        <form name="aut" action="feed.html" method="post" enctype="multipart/form-data">
+            <p>
+                <label for="i1">email</label>
+                <input id=i1 type="email" name="email" placeholder="email">
+            </p>
+            <p>
+                <label for="i11">password</label>
+                <input id=i11 type="password" name="password" placeholder="password">
+            </p>
+            <p><input type="submit" value="Войти"></input></p>
+        </form>
+    <br>
+    <br>
+    <h3>Registration</h3>
+    <form name="registration" action="feed.html" method="post" enctype="multipart/form-data">
+        <p>
+            <label for="i2">Имя на сервисе</label>
+            <input id=i2 type="text" name="inputName" placeholder="Имя на сервисе">
+        </p>
+        <p>
+            <label for="i22">email</label>
+            <input id=i22 type="email" name="email2" placeholder="email">
+        </p>
+        <p>
+            <label for="i23">password</label>
+            <input id=i23 type="password" name="password" placeholder="password">
+        </p>
+        <p>
+            <label for="i24">confirm password</label>
+            <input id=i24 type="password" name="password2" placeholder="password">
+        </p>
+
+        <p><input type="checkbox" name="TorF">согласие с порядком обработки персональных данных</p>
+        <p><input type="submit" value="Зарегистрироваться"></p>
+    </form>
+</body>
+</html>
