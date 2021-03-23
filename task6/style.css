@@ -1,0 +1,39 @@
+@media print {
+    /* Стиль для печати */
+    BODY {
+        /*border: black 10px solid;*/
+        font-family: Times, 'Times New Roman', serif; /* Шрифт с засечками */
+    }
+
+    P {
+        color: black; /* Чёрный цвет текста */
+    }
+}
+body{
+    font-family: "Times New Roman";
+    font-size: 14px;
+
+}
+#did1{
+    border: black 10px solid;
+}
+#id1 p{
+    text-align: center;
+}
+#id2 p{
+    text-align: center;
+    vertical-align: center;
+}
+#id2 p.pb{
+    font-weight: bold;
+}
+#id3 p{
+    padding-left: 50%;
+}
+#id4 p{
+    padding-left: 50%;
+    margin-bottom: 10%;
+}
+#did1,#id1, #id2, #id2,#id3{
+    margin: 10%;
+}
