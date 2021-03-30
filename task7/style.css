@@ -1,15 +1,22 @@
-#flag{
+#flag,#flag1{
     display: none;
 }
-label{
+label.lc{
     padding: 10px;
     background: #aaa;
 }
-#d{
+#d,#ds{
     display: none;
 }
-#flag:checked ~ #d{
+#flag:checked ~ #d,#flag1:checked ~ #ds{
     display:block;
+}
+.lbl,#bc{
+    display: inline-block;
+    padding: 10px;
+    background: #ffffff;
+    border: solid black 1px;
+    border-radius: 10px;
 }
 #tl{
     margin-left: -3%;
@@ -32,6 +39,10 @@ label{
 #p{
     width: 50%;
 }
+#x1{
+    float: right;
+
+}
 #x{
     font-family: Arial;
     text-align: right;
@@ -49,7 +60,8 @@ label{
     box-shadow: 7px 7px 5px rgba(0,0,0,0.6);
 }
 #bc{
-    text-align: right;
+    display: block;
+    text-align: center;
     padding-right: 10px;
 }
 h3{
@@ -57,4 +69,28 @@ h3{
 }
 #d5{
     padding:0 10px;
+}
+
+.switch {
+    display: inline-block;
+}
+
+.switch [type="checkbox"] {
+    display: none;
+}
+
+.switch span {
+    display: block;
+    padding: 10px;
+    border: 2px solid #00f;
+    border-radius: 10px;
+    color: #00f;
+}
+
+.switch :checked~span {
+    color: #fff;
+    background-color: #00f;
+}
+#x1{
+    margin-bottom: 10px;
 }

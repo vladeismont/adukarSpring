@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <ul class="menu">
+        <li><a href="#"><strong>Бытовая техника</strong></a>
+            <ul>
+                <li><a href="#">Стиральные машины</a></li>
+                <li><a href="#">Пылесосы</a></li>
+                <li><a href="#">Швейные, вышивальные машины</a></li>
+                <li><a href="#">Утюги</a></li>
+                <li><a href="#">Электровеники</a></li>
+                <li><a href="#">Сушилки для обуви</a></li>
+            </ul>
+        </li>
+        <li><a href="#">Техника для кухни</a>
+            <ul>
+                <li><a href="#">Холодильники</a></li>
+                <li><a href="#">Кухонные плиты</a></li>
+                <li><a href="#">Морозильники</a></li>
+                <li><a href="#">Настольные плиты</a></li>
+                <li><a href="#">Ростеры, мини-печи</a></li>
+                <li><a href="#">Вытяжки</a></li>
+                <li><a href="#">Микроволновые печи</a></li>
+            </ul>
+        </li>
+        <li><a href="#">Компьютерная техника</a>
+            <ul>
+                <li><a href="#">Ноутбуки</a></li>
+                <li><a href="#">Планшеты</a></li>
+                <li><a href="#">Компьютеры, моноблоки</a></li>
+                <li><a href="#">Игровые приставки</a></li>
+                <li><a href="#">Серверное оборудование</a></li>
+            </ul>
+        </li>
+        <li><a href="#">Корзина</a>
+            <ul>
+                <li><a href="#">test 1</a>
+                    <ul>
+                        <li><a href="#">test 1.1</a></li>
+                        <li><a href="#">test 1.2</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">test 2</a>
+                    <ul>
+                        <li><a href="#">test 2.1</a></li>
+                        <li><a href="#">test 2.2</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+    </ul>
+    <div class="body_container">
+        <h3>Оформить заказ</h3>
+        <form name="order" action="#" method="post" enctype="multipart/form-data">
+
+            <div>
+                <input id=i1 type="text" name="input_Name" placeholder="Имя Фамилия">
+            </div>
+            <div>
+                <input id=i2 type="tel" name="input_tel" placeholder="Телефон">
+            </div>
+            <div>
+                <input id=i3 type="email" name="email" placeholder="email">
+            </div>
+
+            <div>
+                <label>Выберите способ доставки:</label>
+                <br>
+                <input type="radio" name="select">
+                <input type="checkbox" id="flag1">
+                <label class="lc1" for="flag1">Самовывоз со склада по адресу</label>
+
+
+                <input type="radio" name="select">
+                <input type="checkbox" id="flag2">
+                <label class="lc2" for="flag2">Курьером по Минску</label>
+
+                <div id="d1">
+
+
+
+                    <!-- 1. Создаем элемент внутри которого у нас будет отображаться карта Google Maps -->
+                    <div id="map"></div>
+
+                    <!-- 4. Пишем скрипт который создаст и отобразит карту Google Maps на странице. -->
+                    <script type="text/javascript">
+
+                        // Определяем переменную map
+                        var map;
+
+                        // Функция initMap которая отрисует карту на странице
+                        function initMap() {
+
+                            // В переменной map создаем объект карты GoogleMaps и вешаем эту переменную на <div id="map"></div>
+                            map = new google.maps.Map(document.getElementById('map'), {
+                                // При создании объекта карты необходимо указать его свойства
+                                // center - определяем точку на которой карта будет центрироваться
+                                center: {lat: -34.397, lng: 150.644},
+                                // zoom - определяет масштаб. 0 - видно всю платнеу. 18 - видно дома и улицы города.
+                                zoom: 13
+                            });
+                        }
+                    </script>
+
+                    <!-- 3. Подключаем библиотеку Google Maps Api, чтобы создать карту -->
+                    <!-- Атрибуты async и defer - позволяют загружать этот скрипт асинхронно, вместе с загрузкой всей страницы  -->
+                    <!-- В подключении библиотеки Google Maps Api в конце указан параметр callback, после  подключения и загрузки этого Api сработает функция initMap для отрисовки карты,  которую мы описали выше -->
+                    <script async defer src="https://maps.googleapis.com/maps/api/js?callback=initMap"></script>
+
+
+
+                </div>
+                <div id="d2">
+                    <input type="text" placeholder="адрес доставки">
+                </div>
+            </div>
+
+    </form>
+    </div>
+    <footer>
+        <div class="footer_content">Время работы:Пн-Пт 10:00-17:00</div>
+        <div class="footer_content">Наш адрес: Lorem ipsum dolor sit amet, consectetur adipisicing.</div>
+        <div class="footer_content">A1:4238957802 life: 238473209</div>
+        <div class="footer_content">Skype: Lorem ipsum.</div>
+    </footer>
+</body>
+</html>
