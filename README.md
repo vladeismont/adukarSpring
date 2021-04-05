@@ -8,3 +8,7 @@ TZ examples
 <a href="https://github.com/vladeismont/adukarSpring/tree/main/task6">task 6</a>
 <br>
 <a href="https://github.com/vladeismont/adukarSpring/tree/main/task7">task 7</a>
+<br>
+<a href="https://github.com/vladeismont/adukarSpring/tree/main/task8">task 8</a>
+<br>
+<a href="https://github.com/vladeismont/adukarSpring/tree/main/task10">task 10</a>

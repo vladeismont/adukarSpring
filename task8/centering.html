@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="styleCentering.css">
+</head>
+<body>
+    <div class="content">
+        <form class="form-registration" action="/action_page.php">
+            <label for="name">Имя</label>
+            <input class="form-input" type="text" id="name" name="firstname" placeholder="Ваше имя.." required>
+
+            <label for="email">E-mail</label>
+            <input class="form-input" type="email" id="email" name="email" placeholder="some@email.com" required>
+
+            <label for="country">Страна</label>
+            <select class="form-input" id="country" name="country" required>
+                <option value="australia">Australia</option>
+                <option value="belarus">Belarus</option>
+                <option value="canada">Canada</option>
+                <option value="usa">USA</option>
+            </select>
+
+            <input class="form-input form-input_type-submit" type="submit" value="Зарегистрироваться">
+        </form>
+    </div>
+</body>
+</html>

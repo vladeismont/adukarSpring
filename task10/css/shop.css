@@ -1,0 +1,65 @@
+html,body{
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 19px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+
+}
+.header{
+    display: flex;
+    justify-content: center;
+}
+ul>li{
+    list-style: none;
+    height: 80px;
+    width: 200px;
+    background: grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    background: #383c54;
+    position: relative;
+}
+.header ul{
+    display: flex;
+    /*justify-content: stretch;*/
+    flex: 0 1 auto;
+}
+
+ul a{
+    text-decoration: none;
+    color: #fff;
+    background-color: #383c54;
+    display: block;
+    text-align: center;
+    padding: 0px 0px;
+    height: 40px;
+    line-height: 40px;
+    transition: all 400ms;
+}
+.header li ul li{
+    display: none;
+}
+
+
+
+
+.header__logo{
+    background: no-repeat url("http://pngimg.com/uploads/rock_music/small/rock_music_PNG45.png");
+    background-size: 100% 100%;
+}
+.header__search{
+    height: 50px;
+    display: flex;
+    line-height: 40px;
+}

@@ -1,0 +1,13 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.beach {
+    width: 100%;
+    height: 750px;
+    background:  top url("../image/sun.png") no-repeat,
+    bottom url("../image/sea.jpg") no-repeat,
+    center url("../image/sky.jpg") repeat;
+    background-size: 20% 20%, 100% 50%, 10% 50%;
+
+}
