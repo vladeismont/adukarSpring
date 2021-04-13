@@ -1,0 +1,61 @@
+#check{
+    display: none;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+.main-menu{
+    height: 40px;
+    width: 100%;
+    background: lightgrey;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+.lbl{
+    height: 40px;
+    width: 40px;
+    position: fixed;
+    display: none; /* при flex отображается*/
+    top: 0;
+    right: 0;
+    cursor: pointer;
+    justify-content: space-around;
+    text-align: center;
+    flex-direction: column;
+}
+.burger-line{
+    display: flex;
+    width: 36px;
+    height: 3px;
+    background: midnightblue;
+    right: 0px;
+}
+.main-menu li a{
+    text-decoration: none;
+}
+.main-menu li div{
+    height: 100%;
+    padding: 7px 10px 7px 10px;
+    font-size: 22px;
+}
+.main-menu li :hover{
+    background: lightsteelblue;
+}
+@media (max-width: 640px){ /*медиа не работает,а хочу чтобы отображалось только при этом значении*/
+    .lbl{
+        height: 40px;
+        width: 40px;
+        position: fixed;
+        display: flex;
+        top: 0;
+        right: 0;
+        cursor: pointer;
+        justify-content: space-around;
+        text-align: center;
+        flex-direction: column;
+    }
+}
