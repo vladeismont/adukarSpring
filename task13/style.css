@@ -17,7 +17,7 @@
 }
 .lbl{
     height: 40px;
-    width: 40px;
+    width: 100%;
     position: fixed;
     display: none; /* при flex отображается*/
     top: 0;
@@ -28,7 +28,8 @@
     flex-direction: column;
 }
 .burger-line{
-    display: flex;
+    position: absolute;
+    display: none;
     width: 36px;
     height: 3px;
     background: midnightblue;
@@ -48,14 +49,67 @@
 @media (max-width: 640px){ /*медиа не работает,а хочу чтобы отображалось только при этом значении*/
     .lbl{
         height: 40px;
-        width: 40px;
-        position: fixed;
-        display: flex;
+        width: 100%;
+        position: relative;
+        display: block;
         top: 0;
         right: 0;
+        bottom: 0;
         cursor: pointer;
-        justify-content: space-around;
+        background: lightgrey;
+        padding: 10px;
+        font-size: 22px;
+
+    }
+    .main-menu{
+        /*margin-top: 40px;*/
+        height: 40px;
+        width: 100%;
+        display: none;
+        justify-content: center;
         text-align: center;
         flex-direction: column;
+        /*transform: translateY(100%);*/
+        transition: .5s all;
+    }
+    .main-menu li a div{
+
+        display: block;
+        justify-content: center;
+        background: lightgrey;
+    }
+    .burger-line{
+        position: absolute;
+        display: block;
+        width: 36px;
+        height: 3px;
+        background: midnightblue;
+        right: 0px;
+        top: 8px;
+        z-index: 2;
+    }
+    .first{
+    top: 8px;
+    }
+    .second{
+        top: 18px;
+    }
+    .third{
+        top: 28px;
+    }
+    #check:checked ~ .main-menu{
+        display: block;
+        transition: .5s all;
+    }
+    #check:checked ~ .first{
+        transform: rotate(45deg);
+        top: 16px;
+    }
+    #check:checked ~ .second{
+        display: none;
+    }
+    #check:checked ~ .third{
+        transform: rotate(-45deg);
+        top: 16px;
     }
 }
