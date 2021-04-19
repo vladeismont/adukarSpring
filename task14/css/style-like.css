@@ -14,6 +14,9 @@
     color: slateblue;
     animation:growanim 1s linear;
 }
+.lbl{
+    cursor: pointer;
+}
 @keyframes growanim{
     from{
 
