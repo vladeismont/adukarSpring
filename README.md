@@ -22,3 +22,14 @@ TZ examples
 <h2>10. Изображения. Шрифты и иконки</h2>
 <p><a href="https://github.com/vladeismont/adukarSpring/tree/main/task10">task 10</a></p>
 <br>
+<h2>11. Практика</h2>
+<br>
+<h2>12. Flexbox</h2>
+<p><a href="https://github.com/vladeismont/adukarSpring/tree/main/task12">task 12</a></p>
+<br>
+<h2>13. Адаптивная вёрстка</h2>
+<p><a href="https://github.com/vladeismont/adukarSpring/tree/main/task13">task 13</a></p>
+<br>
+<h2>14. Эффекты. Анимация</h2>
+<p><a href="https://github.com/vladeismont/adukarSpring/tree/main/task14">task 14</a></p>
+<br>

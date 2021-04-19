@@ -1,0 +1,30 @@
+
+.wrapper{
+    position: absolute;
+    display: flex;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#b{
+    display: none;
+}
+#b:checked ~ .lbl .fas{
+    font-size: 80px;
+    color: slateblue;
+    animation:growanim 1s linear;
+}
+@keyframes growanim{
+    from{
+
+        font-size: 80px;
+    }
+    50%{
+
+        font-size: 130px;
+    }
+    to{
+
+        font-size: 80px;
+    }
+}
