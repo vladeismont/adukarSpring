@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,QAAQ;EACN,OAAO,EAAE,IAAI;EACb,WAAW,EAAE,MAAM;EACnB,MAAM,EAAE,KAAK;EACX,iBAAQ;IACN,UAAU,EAAE,SAAS;IACrB,SAAS,EAAE,KAAK",
+"sources": ["stylecentering.scss"],
+"names": [],
+"file": "stylecentering.css"
+}

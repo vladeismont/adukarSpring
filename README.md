@@ -33,3 +33,6 @@ TZ examples
 <h2>14. Эффекты. Анимация</h2>
 <p><a href="https://github.com/vladeismont/adukarSpring/tree/main/task14">task 14</a></p>
 <br>
+<h2>CSS Grid</h2>
+<p><a href="https://github.com/vladeismont/adukarSpring/tree/main/grid">grid</a></p>
+<br>

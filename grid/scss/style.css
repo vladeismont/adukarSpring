@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.container {
+  display: grid;
+  width: 100vw;
+  height: 50vh;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr); }
+  .container .item0 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 1fr); }
+    .container .item0 .item0_first {
+      background-image: url("https://content.onliner.by/widget/tiles/1x1/a95ff0cb0444348477c87cc552445007.jpeg");
+      background-size: cover; }
+    .container .item0 .item0_second {
+      background-image: url("https://content.onliner.by/widget/tiles/1x1/ff653a0637780b8c1d724ce2aafd601e.jpeg");
+      background-size: cover; }
+  .container .item {
+    background: url("https://content.onliner.by/widget/tiles/1x2/fd8feef47b534939166759517de35cfb.jpeg");
+    background-size: cover; }
+  .container .item__text {
+    color: white;
+    font-family: Arial;
+    font-weight: bold;
+    padding: 11px;
+    font-size: 20px; }
+
+/*# sourceMappingURL=style.css.map */
