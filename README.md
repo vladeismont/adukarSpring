@@ -28,7 +28,7 @@ TZ examples
 <p><a href="https://github.com/vladeismont/adukarSpring/tree/main/task12">task 12</a></p>
 <br>
 <h2>13. Адаптивная вёрстка</h2>
-<p><a href="https://github.com/vladeismont/adukarSpring/tree/main/task13">task 13</a></p>
+<p><a href="https://github.com/vladeismont/adukarSpring/tree/main/task13">task 13 burger</a></p>
 <br>
 <h2>14. Эффекты. Анимация</h2>
 <p><a href="https://github.com/vladeismont/adukarSpring/tree/main/task14">task 14</a></p>
